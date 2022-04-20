@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <stdarg.h>
 #include <limits.h>
+#include <io.h>
 #include <stdio.h>
 
 /**
@@ -23,5 +24,7 @@ int _putchar(char character);
 int sing_char(va_list c);
 int (*conversion_specifiers(const char *c, int l))(va_list);
 int str_char(va_list s);
-
+int print_integer(va_list i);
+int print_integer(va_list d);
+int print_integerRecursive(unsigned int n);
 #endif
