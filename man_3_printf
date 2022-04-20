@@ -1,0 +1,20 @@
+.SH NAME
+.B PRINTF
+- It is a prototype of the original printf function used in the C
+.SH SYNOPSIS
+- to use the function the #include "main.h" header is included
+.SH DESCRIPTION
+This function is designed to output according to a format as detailed below. This function writes its output to the stdout, the standard output stream.
+.RI "[" OPTION "]..."
+To use _printf you have to use the following key characters preceeded by % symbol.
+.RS 3
+%c: To be used to print characters
+.RS 0
+%s: To be used to print strings
+%%: To print a percentage symbol
+.SH RETURN VALUES
+The function will return the number of characters the string has
+.SH BUGS
+No known bugs.
+.SH AUTHOR.
+Ngabo Jack Donnily && Karinganire Anathole.
