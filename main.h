@@ -14,8 +14,8 @@
 
 typedef struct identifierStruct
 {
-    char *indentifier;
-    int (*printer)(va_list);
+	char *indentifier;
+  	int (*printer)(va_list);
 } identifierStruct;
 
 int _printf(const char *format, ...);
